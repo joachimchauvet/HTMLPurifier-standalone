@@ -1,6 +1,6 @@
 {
-    "name": "ezyang/htmlpurifier",
-    "description": "Standards compliant HTML filter written in PHP",
+    "name": "masterjoa/htmlpurifier-standalone",
+    "description": "Standalone distribution of HTMLPurifier",
     "type": "library",
     "keywords": ["html"],
     "homepage": "http://htmlpurifier.org/",
@@ -14,9 +14,5 @@
     ],
     "require": {
         "php": ">=5.2"
-    },
-    "autoload": {
-        "psr-0": { "HTMLPurifier": "library/" },
-        "files": ["library/HTMLPurifier.composer.php"]
     }
 }
